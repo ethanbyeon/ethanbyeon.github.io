@@ -19,11 +19,11 @@
         position: fixed;
         left: 0px;
         width: 305px;
-        height: 120px;
     }
 
     #link_1 {
         top: 330px;
+        height: 160px;
         background-color: red;
         transform: skew(0deg, 10deg);
     }
@@ -32,11 +32,11 @@
         top: 440px;
         height: 150px;
         background-color: yellow;
-        transform: skew(0deg, 10deg);
     }
 
     #link_3 {
-        top: 545px;
+        top: 550px;
+        height: 120px;
         background-color: orange;
         transform: skew(0deg, -7deg);
     }
