@@ -1,2 +1,2 @@
-# nihilo
-My first/experimental attempt at making a website
+# ethanbyeon.github.io
+Portfolio
