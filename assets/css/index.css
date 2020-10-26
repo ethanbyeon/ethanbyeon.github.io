@@ -37,6 +37,29 @@ nav {
     font-family: ArchRegular;
 }
 
+.hamburger {
+    cursor: pointer;
+}
+.line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+    transition: all 1.0s ease;
+}
+.hamburger div {
+    animation: hamburger 1s ease infinite alternate;
+}
+.line:nth-of-type(1) {
+    animation-delay: 0s;
+}
+.line:nth-of-type(2) {
+    animation-delay: 0.3s;
+}
+.line:nth-of-type(3) {
+    animation-delay: 0.6s;
+}
+
 .showcase {
     min-height: 90vh;
     display: grid;
@@ -59,7 +82,7 @@ nav {
 }
 .details h2 {
     font-size: 42px;
-    padding: 20px 0px;
+    padding: 20px 0px 30px 0px;
 }
 
 .pages {
@@ -89,11 +112,11 @@ nav {
     opacity: 1;
 }
 
+@keyframes hamburger {
+    0% { transform: scaleX(0.5) }
+    100% { transform: scaleX(1.5) }
+}
 @keyframes dot {
-    0% {
-        transform: scale(2);
-    }
-    100% {
-        transform: scale(4);
-    }
+    0% { transform: scale(2) }
+    100% { transform: scale(4) }
 }
